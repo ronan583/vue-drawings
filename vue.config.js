@@ -1,9 +1,10 @@
 const basePath = 'drawing';
 module.exports = {
-	publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-drawings/'
-    : '/',
+	// publicPath: process.env.NODE_ENV === 'production'
+    // ? '/vue-drawings/'
+    // : '/',
     // publicPath: '/',
+    publicPath: '/vue-drawings/',
 	outputDir: 'dist',
 	assetsDir: basePath,
 	filenameHashing: true,
